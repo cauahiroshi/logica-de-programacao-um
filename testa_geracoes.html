@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pularLinha(){
+		document.write("<br><br>")
+	}
+
+	function mostrar(frase) {
+		document.write(frase)
+        pularLinha();
+	}
+
+	var anoAtual= 2021;
+	var quantosAnosPassaram= anoAtual-1500;
+
+	mostrar("Ja se passaram aproxiamadamente " + Math.round(quantosAnosPassaram/28) + " gerações desde 1500" )
+
+	mostrar("Um valor mais preciso é " + (quantosAnosPassaram/28) )
+
+</script>

@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pularLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pularLinha(); 
+	}
+
+	var numero= 1; 
+
+	while (numero<= 100){
+
+		if(numero%2 == 0){
+			mostra(numero);
+		}
+		numero++;
+	}
+	mostra("FIM")
+
+</script>
